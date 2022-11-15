@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  min-height: 200px;
+  flex-direction: row;
+  margin: 0%;
+}
+
+.col-fi{
+  flex: 1;
+  background-color: aliceblue;
+}
+
+.col-sec{
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+}
+
+.content > article{
+  flex: 4;
+  min-height: 30px;
+}
+
+header, footer{
+  background-color: pink;
+  height: 50px;
+}
+
+header, footer, article, nav {
+  padding: 1em;
+}
+
+.container {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.item {
+    background-color: pink;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100px;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+.hellokittylink {
+  align-self: center;
+  width: 200px;
+}
+
+.cart-container{
+  width: 30px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+}
+
+.header{
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .heading{
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #2F3841;
+ }
+ .action{
+  font-size: 14px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #E44C4C;
+  cursor: pointer;
+  border-bottom: 1px solid #E44C4C;
+ }
+
+.container-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-two {
+  flex: 0 32%;
+  height: 100px;
+  width: 70px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  background-color: pink;
+  align-items: flex-start;
+}
+
+.hello-kitty-shoe , .hello-kitty-softtoys , .hello-kitty-clothes , .hello-kitty-toys , .hello-kitty-games , .hello-kitty-cases , .hello-kitty-electronics , .hello-kitty-headphones , .hello-kitty-accessories{
+  width: 200px;
+  height: 100px;
+}
+
