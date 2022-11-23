@@ -219,3 +219,31 @@ header, footer, article, nav {
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.iteme{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 650px;
+  height: 60px;
+  font-size: x-large;
+}
+.itemf{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 250px;
+  height: 60px;
+  font-size: x-large;
+}
+.itemg{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 420px;
+  height: 60px;
+  font-size: x-large;
+}
