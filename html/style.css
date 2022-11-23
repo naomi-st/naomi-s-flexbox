@@ -132,3 +132,51 @@ header, footer, article, nav {
   width: 100%;
   }
 
+.h1{
+  margin-bottom: 3%;
+}
+
+.containera{
+  display: flex;
+}
+
+.itema{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 200px;
+  height: 60px;
+  font-size: x-large;
+}
+
+.itemb{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 200px;
+  height: 60px;
+  font-size: x-large;
+}
+
+.itemc{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 200px;
+  height: 60px;  
+  font-size: x-large;
+
+}
+
+.itemd{
+  background-color: pink;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid whitesmoke;
+  width: 200px;
+  height: 60px;
+  font-size: x-large;
+}
