@@ -8,12 +8,13 @@ body{
   flex-direction: row;
   margin: 0%;
 }
-
+/*Min menyrad på vänstersidan*/
 .col-fi{
   flex: 1;
   background-color: aliceblue;
 }
 
+/*Min navbar på toppen av varje html*/
 .col-sec{
   display: flex;
   flex: 5;
@@ -51,11 +52,13 @@ header, footer, article, nav {
     border-color: aliceblue;
 }
 
+/*Min logga fär företaget*/
 .hellokittylink {
   align-self: center;
   width: 200px;
 }
 
+/*Låtsas cart*/
 .cart-container{
   width: 30px;
   height: 40px;
@@ -78,14 +81,7 @@ header, footer, article, nav {
   font-weight: 700;
   color: #2F3841;
  }
- .action{
-  font-size: 14px;
-  font-family: ‘Open Sans’;
-  font-weight: 600;
-  color: #E44C4C;
-  cursor: pointer;
-  border-bottom: 1px solid #E44C4C;
- }
+
 
 .container-two {
   display: flex;
@@ -213,7 +209,6 @@ header, footer, article, nav {
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
-  text-decoration: none;
   display: block;
 }
 
